@@ -17,7 +17,7 @@ Para uso da funcionalidade de conversão DOC/DOCX->PDF, o usuário deve ter o *M
 
 Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo .exe disponível [aqui](link). Procure pela versão mais recente (*Latest*) e clique no arquivo .exe para fazer o download.
 
-> [!Warning]
+> [!Warning](Aviso)
 > Caso você ainda tenha o executável de uma versão antiga do programa, recomenda-se excluí-lo.
 
 Baixado o programa, você pode colocar o arquivo .exe onde achar melhor.

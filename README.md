@@ -15,7 +15,7 @@ Para uso da funcionalidade de conversão `DOC/DOCX`→`PDF`, o usuário deve ter
 
 ### 2.1 Baixando e Instalando o Programa
 
-Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo .exe disponível [aqui](link). Procure pela versão mais recente (*Latest*) e clique no arquivo .exe para fazer o download.
+Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo .exe disponível [aqui](https://github.com/imbaTIMvel/juntapdf/releases/download/v0.1.0/JuntaPDF.exe). Procure pela versão mais recente (*Latest*) e clique no arquivo .exe para fazer o download.
 
 > [!Warning]
 > Caso você ainda tenha o executável de uma versão antiga do programa, recomenda-se excluí-lo.
@@ -118,7 +118,7 @@ Após o processamento dos arquivos, o programa abrirá uma janela para que você
 
 Data de lançamento: `13/05/2026`
 
-Para fazer o download dessa versão, clique [aqui](link).
+Para fazer o download dessa versão, clique [aqui](https://github.com/imbaTIMvel/juntapdf/releases/download/v0.1.0/JuntaPDF.exe).
 
 *Release* inicial do programa de emenda local de arquivos PDF e documentos Word (.doc e .docx) em lote.
 
@@ -131,7 +131,7 @@ Para fazer o download dessa versão, clique [aqui](link).
 - Compatível com arquivos .doc e .docx, convertendo-os em .pdf antes da mescla.
 - Permite que o usuário escolha o diretório de salvamento para o(s) arquivo(s) de saída.
 
-Clique [aqui](link) para acessar o **changelog completo**.
+Clique [aqui](https://github.com/imbaTIMvel/juntapdf/releases) para acessar o **changelog completo**.
 
 ## 4. Desenvolvimento
 

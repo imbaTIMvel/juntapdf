@@ -91,7 +91,7 @@ Após o processamento dos arquivos, o programa abrirá uma janela para que você
 
 ## 3. Releases
 
-### 3.1 JuntaPDF v0.1.0 (*alpha release*)
+### `v0.1.0` JuntaPDF (*alpha release*)
 
 > ![Warning]
 > O lançamento alfa (*alpha release*) foi desenvolvido para **testes internos**, visando identificar e corrigir bugs antes do lançamento de uma versão estável.

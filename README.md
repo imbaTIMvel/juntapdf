@@ -26,6 +26,9 @@ Baixado o programa, você pode colocar o arquivo .exe onde achar melhor.
 
 Feito isso, clique no arquivo .exe para abrir o programa.
 
+> [!Warning]
+> É possível que o *Windows Defender* acuse o programa como "software perigoso". Neste caso, para executá-lo, você deve clicar em `Mais Informações` e, depois, no botão `Executar assim mesmo`.
+
 ![Tela inicial](assets/images/01_starting_screen.png)
 
 Junte os arquivos que você deseja emendar em uma pasta. O programa utiliza uma convenção de nomenclatura de arquivos para saber quais arquivos emendar e em que ordem fazê-lo.

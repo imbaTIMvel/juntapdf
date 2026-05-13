@@ -9,7 +9,7 @@ Programa de emenda local de arquivos PDF e documentos Word (.doc e .docx) em lot
 Para uso adequado do programa, o usuário deve possuir:
 - **Sistema Operacional:** Windows 10 ou 11
 
-Para uso da funcionalidade de conversão DOC/DOCX->PDF, o usuário deve ter o *Microsoft Word* instalado na versão mais recente.
+Para uso da funcionalidade de conversão `DOC/DOCX`→`PDF`, o usuário deve ter o *Microsoft Word* instalado na versão mais recente.
 
 ## 2. Uso
 

@@ -75,6 +75,12 @@ Para o conjunto de arquivos apresentados acima, o programa processará os seguin
 - `lorem ipsum.pdf`
 - `something 04-05-26.pdf`
 
+Resumindo:
+
+| Arquivos de entrada | Operação | Arquivo(s) de saída | Nota |
+| ------------------- | -------- | ------------------- | ---- |
+| `batch_1.pdf`, `batch_2.pdf` | Emendar na ordem: batch_1 + batch_2 | `batch.pdf` | Arquivos disponíveis em [test_batch](test/test_batch) |
+
 ### 2.4 Selecionando a Pasta
 
 Na janela do programa, clique no botão `Selecionar Pasta` para escolher a pasta onde seus arquivos de entrada estão salvos.

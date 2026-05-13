@@ -11,7 +11,7 @@ Para uso adequado do programa, o usuário deve possuir:
 
 Para uso da funcionalidade de conversão `DOC/DOCX`→`PDF`, o usuário deve ter o *Microsoft Word* instalado na versão mais recente.
 
-## 2. Uso
+## 2. Guia de Uso
 
 ### 2.1 Baixando e Instalando o Programa
 

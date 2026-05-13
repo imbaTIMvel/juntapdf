@@ -13,7 +13,7 @@ Para uso da funcionalidade de conversão `DOC/DOCX`→`PDF`, o usuário deve ter
 
 ## 2. Uso
 
-### Baixando e Instalando o Programa
+### 2.1 Baixando e Instalando o Programa
 
 Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo .exe disponível [aqui](link). Procure pela versão mais recente (*Latest*) e clique no arquivo .exe para fazer o download.
 
@@ -22,7 +22,7 @@ Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo .exe disponível [
 
 Baixado o programa, você pode colocar o arquivo .exe onde achar melhor.
 
-### Abrindo o Programa
+### 2.2 Abrindo o Programa
 
 Feito isso, clique no arquivo .exe para abrir o programa.
 
@@ -33,7 +33,7 @@ Feito isso, clique no arquivo .exe para abrir o programa.
 
 Junte os arquivos que você deseja emendar em uma pasta. O programa utiliza uma convenção de nomenclatura de arquivos para saber quais arquivos emendar e em que ordem fazê-lo.
 
-### Organizando os Arquivos de Entrada
+### 2.3 Organizando os Arquivos de Entrada
 
 Todos os arquivos colocados na pasta devem ser nomeados como:
 
@@ -71,13 +71,13 @@ Para o conjunto de arquivos apresentados acima, o programa processará os seguin
 - `lorem ipsum.pdf`
 - `something 04-05-26.pdf`
 
-### Selecionando a Pasta
+### 2.4 Selecionando a Pasta
 
 Na janela do programa, clique no botão `Selecionar Pasta` para escolher a pasta onde seus arquivos de entrada estão salvos.
 
 ![Escolhendo pasta de entrada](assets/images/03_input_folder.png)
 
-### Emendando os Arquivos
+### 2.5 Emendando os Arquivos
 
 Para emendar os PDFs, clique no botão `Juntar PDFs`.
 
@@ -91,7 +91,7 @@ Após o processamento dos arquivos, o programa abrirá uma janela para que você
 
 ## 3. Releases
 
-### JuntaPDF v0.1.0 (*alpha release*)
+### 3.1 JuntaPDF v0.1.0 (*alpha release*)
 
 > ![Warning]
 > O lançamento alfa (*alpha release*) foi desenvolvido para **testes internos**, visando identificar e corrigir bugs antes do lançamento de uma versão estável.

@@ -20,7 +20,7 @@ Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo .exe disponível [
 > [!Warning]
 > Caso você ainda tenha o executável de uma versão antiga do programa, recomenda-se excluí-lo.
 
-Baixado o programa, você pode colocar o arquivo .exe onde achar melhor.
+Baixado o programa, você pode colocar o arquivo `.exe` onde achar melhor.
 
 ### 2.2 Abrindo o Programa
 

@@ -26,14 +26,14 @@ Baixado o programa, você pode colocar o arquivo `.exe` onde achar melhor.
 
 Feito isso, clique no arquivo `.exe` para abrir o programa.
 
-![Tela inicial](assets/images/exe_in_downloads.png)
+![Tela inicial](assets/tutorial/exe_in_downloads.png)
 
 > [!Warning]
 > É possível que o *Windows Defender* acuse o programa como "software perigoso". Neste caso, para executá-lo, você deve clicar em `Mais Informações` e, depois, no botão `Executar assim mesmo`.
 
-![Windows Defender acusando o programa](assets/images/windows_defender_01.png)
+![Windows Defender acusando o programa](assets/tutorial/windows_defender_01.png)
 
-![Executar assim mesmo](assets/images/windows_defender_02.png)
+![Executar assim mesmo](assets/tutorial/windows_defender_02.png)
 
 Antes de iniciar uma operação, junte os arquivos que você deseja emendar em uma pasta. O programa utiliza uma convenção de nomenclatura de arquivos para saber quais arquivos emendar e em que ordem fazê-lo.
 
@@ -53,7 +53,7 @@ Para que o programa seja capaz de processá-los e emendá-los adequadamente.
 
 Observe o exemplo:
 
-![Pasta "test_0"](assets/images/test_files.png)
+![Pasta "test_0"](assets/tutorial/test_files.png)
 
 Aqui, tenho 5 diferentes grupos de arquivos (disponíveis na pasta [test/test_0](test/test_0)):
 - Grupo "batch": `batch_1.pdf`, `batch_2.pdf`
@@ -89,25 +89,25 @@ Em suma:
 
 Na janela do programa, clique no botão `Selecionar Pasta` para escolher a pasta onde seus arquivos de entrada estão salvos.
 
-![Clicando no botão](assets/images/input_folder_01.png)
+![Clicando no botão](assets/tutorial/input_folder_01.png)
 
-![Escolhendo pasta de entrada](assets/images/input_folder_02.png)
+![Escolhendo pasta de entrada](assets/tutorial/input_folder_02.png)
 
 ### 2.5 Emendando os Arquivos
 
 Para emendar os PDFs, clique no botão `Juntar PDFs`.
 
-![Clicando no botão](assets/images/link_pdfs_01.png)
+![Clicando no botão](assets/tutorial/link_pdfs_01.png)
 
-![Emendando PDFs](assets/images/link_pdfs_02.png)
+![Emendando PDFs](assets/tutorial/link_pdfs_02.png)
 
 Após o processamento dos arquivos, o programa abrirá uma janela para que você escolha a pasta onde os arquivos de saída serão salvos.
 
-![Escolhendo pasta de saída](assets/images/end_of_operation_01.png)
+![Escolhendo pasta de saída](assets/tutorial/end_of_operation_01.png)
 
-![Mensagem de sucesso](assets/images/end_of_operation_02.png)
+![Mensagem de sucesso](assets/tutorial/end_of_operation_02.png)
 
-![PDFs emendados](assets/images/end_of_operation_03.png)
+![PDFs emendados](assets/tutorial/end_of_operation_03.png)
 
 ## 3. Releases
 

@@ -118,7 +118,7 @@ Após o processamento dos arquivos, o programa abrirá uma janela para que você
 
 Data de lançamento: `13/05/2026`
 
-Para fazer o download dessa versão, clique [aqui](https://github.com/imbaTIMvel/juntapdf/releases/download/v0.1.0/JuntaPDF.exe).
+Para fazer o download desta versão, clique [aqui](https://github.com/imbaTIMvel/juntapdf/releases/download/v0.1.0/JuntaPDF.exe).
 
 *Release* inicial do programa de emenda local de arquivos PDF e documentos Word (.doc e .docx) em lote.
 

@@ -111,10 +111,10 @@ Após o processamento dos arquivos, o programa abrirá uma janela para que você
 
 ## 3. Releases
 
-### `v0.1.0` JuntaPDF (*alpha release*)
+### `v0.1.0` JuntaPDF (*beta release*)
 
 > [!Warning]
-> O lançamento alfa (*alpha release*) foi desenvolvido para **testes internos**, visando identificar e corrigir bugs antes do lançamento de uma versão estável.
+> O lançamento beta (*beta release*) foi desenvolvido para **testes internos**, visando identificar e corrigir bugs antes do lançamento de uma versão estável.
 
 Data de lançamento: `13/05/2026`
 

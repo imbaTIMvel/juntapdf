@@ -1,0 +1,1 @@
+pyinstaller --name "JuntaPDF" --onefile --windowed --icon=juntapdf.ico --add-data "juntapdf.ico;." --add-data "bg_hbr.png;." --hidden-import win32com --hidden-import win32com.client --collect-submodules win32com juntapdf.py

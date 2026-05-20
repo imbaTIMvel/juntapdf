@@ -145,6 +145,6 @@ Timóteo Altoé (*handle:* [imbaTIMvel](https://github.com/imbaTIMvel))
 
 `05/05/2026` Lançamento da versão *alfa* - para testes internos
 
-`06/05/2026` Publicação da primeira versão oficial no GitHub
+`13/05/2026` Publicação da primeira versão oficial no GitHub
 
 `21/05/2026` Lançamento da versão *beta* - para testes

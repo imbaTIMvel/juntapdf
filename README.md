@@ -15,7 +15,7 @@ Para uso da funcionalidade de conversão `DOC/DOCX`→`PDF`, o usuário deve ter
 
 ### 2.1 Baixando e Instalando o Programa
 
-Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo .exe disponível [aqui](https://github.com/imbaTIMvel/juntapdf/releases). Procure pela versão mais recente (*Latest*) e clique no arquivo `.exe` para fazer o download.
+Para usar o `JuntaPDF`, primeiro, você deve baixar o arquivo `.exe` disponível [aqui](https://github.com/imbaTIMvel/juntapdf/releases). Procure pela versão mais recente (*Latest*) e clique no arquivo `.exe` para fazer o download.
 
 > [!Warning]
 > Caso você ainda tenha o executável de uma versão antiga do programa, recomenda-se excluí-lo.

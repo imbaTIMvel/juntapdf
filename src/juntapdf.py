@@ -2,7 +2,7 @@ import sys, os
 from pathlib import Path
 import win32com.client
 from pypdf import PdfWriter
-from PyQt6.QtWidgets import (
+from PySide6.QtWidgets import (
     QApplication,
     QWidget,
     QPushButton,
@@ -15,8 +15,8 @@ from PyQt6.QtWidgets import (
     QFrame,
     QMessageBox
 )
-from PyQt6.QtGui import QIcon, QPixmap
-from PyQt6.QtCore import Qt
+from PySide6.QtGui import QIcon, QPixmap
+from PySide6.QtCore import Qt
 
 # ==============================
 # FUNÇÕES AUXILIARES

@@ -41,13 +41,13 @@ Antes de iniciar uma operação, junte os arquivos que você deseja emendar em u
 
 Todos os arquivos colocados na pasta devem ser nomeados como:
 
-`nome_numero.pdf`
+`nome (x).pdf`
 
 Sendo que:
 - `nome` pode ser qualquer texto (incluindo letras maiúsculas, minúsculas, acentos, sinais e números)
-- `_` entre `nome` e `numero` é **INDISPENSÁVEL**
-- `numero` deve ser expresso em números inteiros, na ordem desejada para emenda dos arquivos do conjunto `nome`
-- O conjunto de arquivos de entrada com o mesmo elemento `nome` será mesclado em um único arquivo `nome.pdf`, seguindo a ordem dos índices `numero`
+- `x` **PRECISA** estar entre parênteses
+- `x` deve ser um número inteiro, na ordem desejada para emenda dos arquivos do conjunto `nome`
+- O conjunto de arquivos de entrada com o mesmo elemento `nome` será mesclado em um único arquivo `nome.pdf`, seguindo a ordem dos índices `x`
 
 Para que o programa seja capaz de processá-los e emendá-los adequadamente.
 
@@ -56,19 +56,19 @@ Observe o exemplo:
 ![Pasta "test_0"](assets/tutorial/test_files.png)
 
 Aqui, tenho 5 diferentes grupos de arquivos (disponíveis na pasta [test/test_0](test/test_0)):
-- Grupo "batch": `batch_1.pdf`, `batch_2.pdf`
-- Grupo "copy_test": `copy_test_1.pdf`, `copy_test_2.pdf`, `copy_test_3.doc`, `copy_test_4.pdf`, `copy_test_5.pdf`
-- Grupo "exodia": `exodia_0.pdf`, `exodia_1.pdf`, `exodia_2.pdf`, `exodia_3.pdf`, `exodia_4.pdf`
-- Grupo "lorem ipsum": `lorem ipsum_1.pdf`, `lorem ipsum_2.pdf`, `lorem ipsum_3.pdf`, `lorem ipsum_4.pdf`, `lorem ipsum_5.pdf`, `lorem ipsum_6.pdf`, `lorem ipsum_7.pdf`, `lorem ipsum_8.pdf`, `lorem ipsum_9.pdf`, `lorem ipsum_10.pdf`, `lorem ipsum_11.docx`
-- Grupo "something 04-05-26": `something 04-05-26_1.pdf`, `something 04-05-26_2.pdf`, `something 04-05-26_3.pdf`, `something 04-05-26_4.pdf`, `something 04-05-26_5.pdf`, `something 04-05-26_6.pdf`
+- Grupo "batch": `batch (1).pdf`, `batch (2).pdf`
+- Grupo "copy_test": `copy_test (1).pdf`, `copy_test (2).pdf`, `copy_test (3).doc`, `copy_test (4).pdf`, `copy_test (5).pdf`
+- Grupo "exodia": `exodia (0).pdf`, `exodia (1).pdf`, `exodia (2).pdf`, `exodia (3).pdf`, `exodia (4).pdf`
+- Grupo "lorem ipsum": `lorem ipsum (1).pdf`, `lorem ipsum (2).pdf`, `lorem ipsum (3).pdf`, `lorem ipsum (4).pdf`, `lorem ipsum (5).pdf`, `lorem ipsum (6).pdf`, `lorem ipsum (7).pdf`, `lorem ipsum (8).pdf`, `lorem ipsum  (9).pdf`, `lorem ipsum  (10).pdf`, `lorem ipsum (11).docx`
+- Grupo "something 04-05-26": `something 04-05-26 (1).pdf`, `something 04-05-26 (2).pdf`, `something 04-05-26 (3).pdf`, `something 04-05-26 (4).pdf`, `something 04-05-26 (5).pdf`, `something 04-05-26 (6).pdf`
 
-O programa reconhece o grupo do arquivo e a ordem em que ele deve ser emendado ao arquivo de saída através da nomenclatura do documento. Tomemos o arquivo `lorem ipsum_5.pdf`, por exemplo:
-- Nome do arquivo (sem a extensão): `lorem ipsum_5`
+O programa reconhece o grupo do arquivo e a ordem em que ele deve ser emendado ao arquivo de saída através da nomenclatura do documento. Tomemos o arquivo `lorem ipsum (5).pdf`, por exemplo:
+- Nome do arquivo (sem a extensão): `lorem ipsum (5)`
 - Texto **antes** do underscore ("_"): `lorem ipsum`
 - Texto **depois** do underscore ("_"): `5`
 Logo, este arquivo pertence ao grupo "lorem ipsum", e é o arquivo de índice 5.
 
-Para o conjunto de arquivos apresentados acima, o programa processará os seguintes arquivos de saída:
+Para o conjunto de arquivos apresentados anteriormente, o programa processará os seguintes arquivos de saída:
 - `batch.pdf`
 - `copy_test.pdf`
 - `exodia.pdf`
@@ -79,11 +79,11 @@ Em suma:
 
 | Arquivos de entrada | Operação | Arquivo(s) de saída | Nota |
 | ------------------- | -------- | ------------------- | ---- |
-| `batch_1.pdf`, `batch_2.pdf` | Emendar na ordem: batch_1 + batch_2 | `batch.pdf` | Arquivos de entrada disponíveis em [test_batch](test/test_batch) |
-| `copy_test_1.pdf`, `copy_test_2.pdf`, `copy_test_3.doc`, `copy_test_4.pdf`, `copy_test_5.pdf` | Converter `copy_test_3.doc` em `copy_test_3.pdf`. Emendar na ordem: copy_test_1 + copy_test_2 + copy_test_3 + copy_test_4 + copy_test_5 | `copy_test.pdf` | Arquivos de entrada disponíveis em [test_copy_test](test/test_copy_test) |
-| `exodia_0.pdf`, `exodia_1.pdf`, `exodia_2.pdf`, `exodia_3.pdf`, `exodia_4.pdf` | Emendar na ordem: exodia_0 + exodia_1 + exodia_2 + exodia_3 + exodia_4 | `exodia.pdf` | Arquivos de entrada disponíveis em [test_exodia](test/test_exodia) |
-| `lorem ipsum_1.pdf`, `lorem ipsum_2.pdf`, `lorem ipsum_3.pdf`, `lorem ipsum_4.pdf`, `lorem ipsum_5.pdf`, `lorem ipsum_6.pdf`, `lorem ipsum_7.pdf`, `lorem ipsum_8.pdf`, `lorem ipsum_9.pdf`, `lorem ipsum_10.pdf`, `lorem ipsum_11.docx` | Converter `lorem ipsum_11.docx` em `lorem ipsum_11.pdf`. Emendar na ordem: lorem_ipsum_1 + lorem_ipsum_2 + lorem_ipsum_3 + lorem_ipsum_4 + lorem_ipsum_5 + lorem_ipsum_6 + lorem_ipsum_7 + lorem_ipsum_8 + lorem_ipsum_9 + lorem_ipsum_10 + lorem_ipsum_11 | `lorem_ipsum.pdf` | Arquivos de entrada disponíveis em [test_lorem_ipsum](test/test_lorem_ipsum) |
-| `something 04-05-26_1.pdf`, `something 04-05-26_2.pdf`, `something 04-05-26_3.pdf`, `something 04-05-26_4.pdf`, `something 04-05-26_5.pdf`, `something 04-05-26_6.pdf` | Emendar na ordem: something 04-05-26_1 + something 04-05-26_2 + something 04-05-26_3 + something 04-05-26_4 + something 04-05-26_5 + something 04-05-26_6 | `something 04-05-26.pdf` | Arquivos de entrada disponíveis em [test_something](test/test_something) |
+| `batch (1).pdf`, `batch (2).pdf` | Emendar na ordem: batch (1) + batch (2) | `batch.pdf` | Arquivos de entrada disponíveis em [test_batch](test/test_batch) |
+| `copy_test (1).pdf`, `copy_test (2).pdf`, `copy_test (3).doc`, `copy_test (4).pdf`, `copy_test (5).pdf` | Converter `copy_test (3).doc` em `copy_test (3).pdf`. Emendar na ordem: copy_test (1) + copy_test (2) + copy_test (3) + copy_test (4) + copy_test (5) | `copy_test.pdf` | Arquivos de entrada disponíveis em [test_copy_test](test/test_copy_test) |
+| `exodia (0).pdf`, `exodia (1).pdf`, `exodia (2).pdf`, `exodia (3).pdf`, `exodia (4).pdf` | Emendar na ordem: exodia (0) + exodia (1) + exodia (2) + exodia (3) + exodia (4) | `exodia.pdf` | Arquivos de entrada disponíveis em [test_exodia](test/test_exodia) |
+| `lorem ipsum (1).pdf`, `lorem ipsum (2).pdf`, `lorem ipsum (3).pdf`, `lorem ipsum (4).pdf`, `lorem ipsum (5).pdf`, `lorem ipsum (6).pdf`, `lorem ipsum (7).pdf`, `lorem ipsum (8).pdf`, `lorem ipsum (9).pdf`, `lorem ipsum (10).pdf`, `lorem ipsum (11).docx` | Converter `lorem ipsum (11).docx` em `lorem ipsum (11).pdf`. Emendar na ordem: lorem_ipsum (1) + lorem_ipsum (2) + lorem_ipsum (3) + lorem_ipsum (4) + lorem_ipsum (5) + lorem_ipsum (6) + lorem_ipsum (7) + lorem_ipsum (8) + lorem_ipsum (9) + lorem_ipsum (10) + lorem_ipsum (11) | `lorem_ipsum.pdf` | Arquivos de entrada disponíveis em [test_lorem_ipsum](test/test_lorem_ipsum) |
+| `something 04-05-26 (1).pdf`, `something 04-05-26 (2).pdf`, `something 04-05-26 (3).pdf`, `something 04-05-26 (4).pdf`, `something 04-05-26 (5).pdf`, `something 04-05-26 (6).pdf` | Emendar na ordem: something 04-05-26 (1) + something 04-05-26 (2) + something 04-05-26 (3) + something 04-05-26 (4) + something 04-05-26 (5) + something 04-05-26 (6) | `something 04-05-26.pdf` | Arquivos de entrada disponíveis em [test_something](test/test_something) |
 
 ### 2.4 Selecionando a Pasta
 
@@ -125,7 +125,7 @@ Para fazer o download desta versão, clique [aqui](https://github.com/imbaTIMvel
 **Features:**
 
 - Recebe arquivos .pdf, juntando-os em PDFs "costurados" de acordo com a nomenclatura e numeração dos arquivos. Por exemplo:
-  - Arquivos de entrada: `string1_1.pdf`, `string1_2.pdf`, `...`, `string1_10.pdf`, `string2_1.pdf`, `string2_2.pdf`, `...`, `string2_10.pdf`, `string3_1.pdf`, `string3_2.pdf`, `...`, `string3_10.pdf`;
+  - Arquivos de entrada: `string1 (1).pdf`, `string1 (2).pdf`, `...`, `string1 (10).pdf`, `string2 (1).pdf`, `string2 (2).pdf`, `...`, `string2 (10).pdf`, `string3 (1).pdf`, `string3 (2).pdf`, `...`, `string3 (10).pdf`;
   - Arquivos de saída: `string1.pdf`, `string2.pdf`, `string3.pdf`
   - Onde "string1", "string2" e "string3" podem ser quaisquer strings de texto (incluindo letras maiúsculas, minúsculas, acentos, sinais e números).
 - Compatível com arquivos .doc e .docx, convertendo-os em .pdf antes da mescla.
